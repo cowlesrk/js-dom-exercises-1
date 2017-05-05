@@ -39,3 +39,5 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
 	p.textContent = input.value + ":";
 });
+
+p.title = "List description"
